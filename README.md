@@ -6,7 +6,7 @@ Start the GUI, sis3316 readout server, and the live plotter using
 ./START_GUI.sh
 ```
 
-For help on setting up the sis3316, refer to the [IU OSF Wiki](https://osf.io/xvpmf/?view_only=d6578f1ad8ee491598bd39c41b621ed1)
+[Instructions for setting up the SIS3316](https://github.com/dougUCN/SIS3316)
 
 If you would like the change the default gui launch settings, edit defaults.in
 
@@ -24,9 +24,9 @@ It will also be useful to refer to the manual for explanation on certain setting
 
 ### sis3316 Daq code ###
 
-The sis3316 python interface code in this gui folder may or may not be up to date. For the latest, stable version refer to the [Doug Wong's github](https://github.com/dougUCN/SIS3316)
+The sis3316 python interface code in this gui folder may not be up to date. [Latest, stable version](https://github.com/dougUCN/SIS3316)
 
-If you are an unfortunate undergrad/grad student tasked with modifying the sis3316 library, the github repo is where to start. The sis3316 can be run entirely with command line programs, located in the `tools` folder
+Note that the sis3316 can be run entirely with command line programs, located in the `tools` folder
 
 ### File I/O ###
 
